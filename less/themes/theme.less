@@ -1,0 +1,87 @@
+.hook-button() {
+    &-primary {
+        background-color: rgb(194, 104, 230);
+        color: #fff;
+    }
+    &-secondary {
+        background: rgb(129, 131, 138);
+        color: #fff;
+    }
+}
+.hook-button-hover() {
+    .button-primary:hover {
+        background: rgb(142, 87, 163);
+        color: #fff;
+        
+    }
+    .button-secondary:hover {
+        background: rgb(95, 97, 104);
+        color: #fff;
+    }
+}
+
+.hook-button-focus() {
+    .button-primary:focus {
+        background: rgb(118, 73, 136);
+        color: #fff;
+    }
+    .button-secondary:focus {
+        background: rgb(81, 83, 88);
+        color: #fff;
+    }
+
+}
+.hook-button-active() {
+    .button-primary:active {
+        background: rgb(118, 73, 136);
+        color: #fff;
+    }
+    .button-secondary:active {
+        background: rgb(81, 83, 88);
+        color: #fff;
+    }
+}
+
+.hook-component() {
+    .grid-main {
+        display: flex;
+        
+        .grid-item {
+            width: 33.3333%;
+        }
+        .grid-item:not(:last-child) {
+            margin-right: 20px;
+        }
+        
+    }
+    .card {
+        background-color: rgb(247, 237, 183);
+        color: rgb(192, 30, 143);
+        min-width: 300px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .navbar {
+        background-color: rgb(240, 229, 229);
+        text-align: center;
+        
+        li {
+            list-style: none;
+            padding-top: 30px;
+        }
+    }
+    .footer {
+        background-color: #ccc;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+}
